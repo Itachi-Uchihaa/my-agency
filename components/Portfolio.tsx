@@ -106,7 +106,7 @@ export function Portfolio() {
       : projects.filter((p) => p.category === selectedCategory);
 
   return (
-    <section id="portfolio" className="py-24 bg-white">
+    <section id="portfolio" className="py-24 bg-[#e55937] text-[#ffe974]">
       <div className="container mx-auto px-4 lg:px-8">
         <motion.div
           className="text-center mb-12"

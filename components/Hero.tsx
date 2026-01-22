@@ -43,7 +43,7 @@ export function Hero() {
             >
               Creative, Strategic
               <br />
-              <span className="text-orange-500">Web Agency</span>
+              <span className="text-[#e55937]">Web Agency</span>
             </motion.h1>
 
             <motion.p
@@ -65,7 +65,7 @@ export function Hero() {
             >
               <motion.button
                 onClick={() => scrollToSection("contact")}
-                className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-lg font-medium flex items-center justify-center gap-2 transition-colors"
+                className="bg-[#e55937] hover:bg-[#e55937]/80 text-white px-8 py-4 rounded-lg font-medium flex items-center justify-center gap-2 transition-colors"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
@@ -89,10 +89,10 @@ export function Hero() {
               animate={{ opacity: 1 }}
               transition={{ duration: 0.8, delay: 0.8 }}
             >
-              <Phone size={20} className="text-orange-500" />
+              <Phone size={20} className="text-[#e55937]" />
               <a
                 href="tel:+33123456789"
-                className="text-lg hover:text-orange-500 transition-colors"
+                className="text-lg hover:text-[#e55937] transition-colors"
               >
                 +33 1 23 45 67 89
               </a>

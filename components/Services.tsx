@@ -33,7 +33,7 @@ const services = [
 
 export function Services() {
   return (
-    <section id="services" className="py-24 bg-gray-50">
+    <section id="services" className="py-24 bg-[#e55937] text-[#ffe974]">
       <div className="container mx-auto px-4 lg:px-8">
         <motion.div
           className="text-center mb-16"
@@ -42,10 +42,10 @@ export function Services() {
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
         >
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+          <h2 className="text-4xl md:text-5xl font-bold  mb-4" style={{ fontFamily: "var(--font-raleway)" }}>
             Our Expertise
           </h2>
-          <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+          <p className="text-xl  max-w-2xl mx-auto" style={{ fontFamily: "var(--font-raleway)" }}>
             We blend creativity with strategy to deliver exceptional digital
             solutions
           </p>
@@ -74,9 +74,9 @@ export function Services() {
                 </div>
               </div>
 
-              <div className="p-6">
+              <div className="p-6 bg-[#ffe974]">
                 <h3 className="text-2xl font-bold text-gray-900 mb-3">
-                  {service.title}
+                  {service.title} zola
                 </h3>
                 <p className="text-gray-600 mb-4">{service.description}</p>
                 <button className="text-orange-500 font-medium flex items-center gap-2 hover:gap-3 transition-all group/btn">
